@@ -1,0 +1,42 @@
+.app-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 350px;
+}
+  
+  button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+  ul {
+    list-style-type: none;
+    padding: 10;
+    margin-inline-end: 40px;
+    padding-inline-start: 40px;
+}
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: black;
+}
+  
+  .delete-btn {
+    background-color: red;
+    padding:  10px 20px;
+}
+  
